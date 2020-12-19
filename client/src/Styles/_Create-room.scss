@@ -18,7 +18,14 @@
   justify-content: center;
 
   button {
-    position: absolute;
+    position: relative;
+    margin-top: -37rem;
+    margin-left: 45rem;
+  }
+  img {
+    margin-left: 10rem;
+    margin-right: 3rem;
+    margin-top: 100px;
   }
 }
 .video-btn {

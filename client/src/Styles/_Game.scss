@@ -11,4 +11,88 @@
   box-shadow: -10px 0px 4px rgba(233, 69, 96, 0.4);
   align-items: center;
   justify-content: center;
+  font-size: 4rem;
+}
+.quiz {
+  position: relative;
+  z-index: 2;
+  right: 20px;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.cont {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 40vw;
+  height: 40vh;
+}
+.score-section {
+  display: flex;
+  font-size: 4rem;
+  align-items: center;
+}
+
+.question-section {
+  width: 100%;
+
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin-bottom: 12px;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
 }

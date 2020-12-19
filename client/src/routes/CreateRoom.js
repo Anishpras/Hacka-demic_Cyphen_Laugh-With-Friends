@@ -12,16 +12,14 @@ const CreateRoom = (props) => {
     <div className="create-room">
       <SideBar />
       <div className="video-button">
-        <center>
-          <img
-            className="video-gif"
-            src="https://media.giphy.com/media/9Dm6KCWghvzpkofSHG/giphy.gif"
-            alt=""
-          />
-          <button className="video-btn" onClick={create}>
-            Create room
-          </button>
-        </center>
+        <img
+          className="video-gif"
+          src="https://media.giphy.com/media/9Dm6KCWghvzpkofSHG/giphy.gif"
+          alt=""
+        />
+        <button className="video-btn" onClick={create}>
+          Create room
+        </button>
       </div>
     </div>
   );

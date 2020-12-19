@@ -38,7 +38,7 @@ const Messaging = () => {
 
   return (
     <div className="message">
-      <img src={Logo} />
+      <img src={Logo} alt="" />
       <h1>Hello everyone.</h1>
       <h2>Welcome {username}</h2>
       <form className="app__form">
