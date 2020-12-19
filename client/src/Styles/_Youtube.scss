@@ -5,15 +5,15 @@
   background: #ffffff;
   border-radius: 25px;
   background: #191b1c;
-  border-left: azure solid 2px;
+  border-left: #e94560 solid 2px;
+  box-shadow: -10px 0px 4px rgba(233, 69, 96, 0.4);
   height: 95vh;
-  width: 100vw;
+  width: 80vw;
   overflow: scroll;
   overflow-x: hidden;
   align-content: center;
   justify-content: center;
-
 }
-.name{
+.name {
   font-size: 30px;
 }

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
-  background: #202731;
+  background: #133b5c;
   border-radius: 25px 0px 0px 25px;
   height: 95vh;
   width: 10vw;
@@ -10,6 +10,8 @@
   justify-content: space-between;
   min-width: 112.094px;
   border-left: rgba(240, 255, 255, 0.434) solid 1px;
+  box-sizing: border-box;
+  box-shadow:  -5px 2px 4px rgba(252, 218, 183, 0.4);
 }
 .icon2 {
   width: 60px;
