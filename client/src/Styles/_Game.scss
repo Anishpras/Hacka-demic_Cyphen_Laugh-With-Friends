@@ -1,0 +1,14 @@
+.game {
+  position: relative;
+  z-index: 2;
+  right: 20px;
+  height: 95vh;
+  width: 80vw;
+  background: #ffffff;
+  border-radius: 25px;
+  background: #191b1c;
+  border-left: #e94560 solid 2px;
+  box-shadow: -10px 0px 4px rgba(233, 69, 96, 0.4);
+  align-items: center;
+  justify-content: center;
+}

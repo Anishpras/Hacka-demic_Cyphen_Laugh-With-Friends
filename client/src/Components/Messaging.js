@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { Button, FormControl, InputLabel, Input } from "@material-ui/core";
+import { FormControl, Input } from "@material-ui/core";
 import db from "./firebase";
 import firebase from "firebase";
 import FlipMove from "react-flip-move";
 import SendIcon from "@material-ui/icons/Send";
 import { IconButton } from "@material-ui/core";
 import Message from "./Message";
+import Logo from "../images/logo-Hack.png";
 const Messaging = () => {
   const [input, setInput] = useState("");
   const [messages, setMesseges] = useState([]);
@@ -26,7 +27,6 @@ const Messaging = () => {
   }, []);
 
   const sendMessage = (event) => {
-    // All the logic goes here for sending message
     event.preventDefault();
     db.collection("messages").add({
       message: input,
@@ -38,7 +38,7 @@ const Messaging = () => {
 
   return (
     <div className="message">
-      <img src="https://scontent.fpat5-1.fna.fbcdn.net/v/t39.8562-6/37794079_285442762012286_2170626851641229312_n.png?_nc_cat=1&_nc_sid=6825c5&_nc_ohc=Rdi1TWbWwyoAX-cimDm&_nc_ht=scontent.fpat5-1.fna&oh=f83c41b657df9aba926cc05eca11851f&oe=5F81D70C" />
+      <img src={Logo} />
       <h1>Hello everyone.</h1>
       <h2>Welcome {username}</h2>
       <form className="app__form">

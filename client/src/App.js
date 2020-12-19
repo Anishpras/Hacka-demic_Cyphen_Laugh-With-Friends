@@ -8,6 +8,7 @@ import React from "react";
 import Home from "./Components/Home";
 import Youtube from "./Components/Youtube";
 import MessagingComponent from "./Components/MessagingComponent";
+import Game from "./Components/Game";
 
 // import { useEffect, useState } from "react";
 function App() {
@@ -20,6 +21,10 @@ function App() {
           <Route path="/meme">
             <SideBar />
             <Memes />
+          </Route>
+          <Route path="/games">
+            <SideBar />
+            <Game />
           </Route>
           <Route path="/messaging">
             <SideBar />
