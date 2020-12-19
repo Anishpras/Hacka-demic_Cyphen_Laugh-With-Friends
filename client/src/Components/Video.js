@@ -4,9 +4,7 @@ import CreateRoom from "../routes/CreateRoom";
 const Video = () => {
   return (
     <div className="video">
-   
-        <CreateRoom />
-    
+      <CreateRoom />
     </div>
   );
 };

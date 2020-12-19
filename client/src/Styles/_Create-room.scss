@@ -21,7 +21,7 @@
     position: absolute;
   }
 }
-.BUTTON_GGY {
+.video-btn {
   background: #1f2831;
   background-image: -webkit-linear-gradient(top, #1f2831, #0f141d);
   background-image: -moz-linear-gradient(top, #1f2831, #0f141d);
@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-.BUTTON_GGY:hover {
+.video-btn :hover {
   border: solid #337fed 1px;
   background: #1e62d0;
   background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
@@ -63,4 +63,9 @@
   -moz-border-radius: 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+.video-gif {
+  margin-top: 11%;
+  margin-right: 10%;
+  width: 30vw;
 }
