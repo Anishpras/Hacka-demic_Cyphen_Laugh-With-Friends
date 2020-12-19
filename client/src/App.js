@@ -7,6 +7,7 @@ import Room from "./routes/Room";
 import React from "react";
 import Home from "./Components/Home";
 import Youtube from "./Components/Youtube";
+import MessagingComponent from "./Components/MessagingComponent";
 
 // import { useEffect, useState } from "react";
 function App() {
@@ -19,6 +20,10 @@ function App() {
           <Route path="/meme">
             <SideBar />
             <Memes />
+          </Route>
+          <Route path="/messaging">
+            <SideBar />
+            <MessagingComponent />
           </Route>
           <Route path="/play">
             <SideBar />

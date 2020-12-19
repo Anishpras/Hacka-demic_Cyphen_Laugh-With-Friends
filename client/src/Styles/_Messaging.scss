@@ -1,0 +1,62 @@
+.messaging {
+  position: relative;
+  z-index: 2;
+  right: 20px;
+  height: 95vh;
+  width: 80vw;
+  background: #ffffff;
+  border-radius: 25px;
+  background: #191b1c;
+  border-left: #e94560 solid 2px;
+  box-shadow: -10px 0px 4px rgba(233, 69, 96, 0.4);
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+}
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: 75vw;
+}
+.message__user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+  width: fit-content;
+}
+.message__userCard {
+  background-color: #0b81ff !important;
+}
+.message__guestCard {
+  background-color: #e9e9eb !important;
+  width: fit-content;
+}
+.message {
+  text-align: center;
+}
+
+.message__form {
+  padding: 20px;
+  background-color: #e9e9eb;
+  position: fixed;
+  bottom: 20px;
+  z-index: 1;
+  width: 90%;
+  margin: 20px;
+}
+.message__formControl {
+  display: flex !important;
+  flex-direction: row !important ;
+}
+.message__iconButton {
+  flex: 0 !important;
+}
+.message__input {
+  flex: 1 !important;
+}
+.MuiInputBase-root {
+  color: aliceblue !important;
+}
+.send_icon {
+  color: aliceblue;
+}
