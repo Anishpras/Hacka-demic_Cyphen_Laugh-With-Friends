@@ -1,6 +1,8 @@
 .create-room {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .video-button {
   position: relative;
@@ -11,4 +13,53 @@
   background: #191b1c;
   border-left: azure solid 2px;
   border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    position: absolute;
+  }
+}
+.BUTTON_GGY {
+  background: #1f2831;
+  background-image: -webkit-linear-gradient(top, #1f2831, #0f141d);
+  background-image: -moz-linear-gradient(top, #1f2831, #0f141d);
+  background-image: -ms-linear-gradient(top, #1f2831, #0f141d);
+  background-image: -o-linear-gradient(top, #1f2831, #0f141d);
+  background-image: -webkit-gradient(to bottom, #1f2831, #0f141d);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: auto;
+  line-height: 50px;
+  color: #ffffff;
+  font-family: Brush Script MT;
+  width: auto;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 40px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  margin-top: 35vh;
+  margin-right: 30px;
+  font-family: belligerent_madnessregular;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_GGY:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  background-image: -webkit-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -moz-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -ms-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -o-linear-gradient(top, #1e62d0, #3d94f6);
+  background-image: -webkit-gradient(to bottom, #1e62d0, #3d94f6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }

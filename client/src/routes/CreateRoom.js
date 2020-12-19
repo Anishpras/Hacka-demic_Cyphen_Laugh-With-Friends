@@ -12,9 +12,11 @@ const CreateRoom = (props) => {
     <div className="create-room">
       <SideBar />
       <div className="video-button">
-        <button className="BUTTON_GGY" onClick={create}>
-          Create room
-        </button>
+        <center>
+          <button className="BUTTON_GGY" onClick={create}>
+            Create room
+          </button>
+        </center>
       </div>
     </div>
   );
